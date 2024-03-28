@@ -1,0 +1,3 @@
+Produto: leite| Codigo: 3| Descri��o: leite de vaca| Quantidade: 1500| Pre�o: 4.0
+Eletronico: fone| Codigo: 242342| Descri��o: fone| Quantidade: 20| Pre�o: 220.0| Marca: tranya| Modelo: t30
+Produto: asdasd| Codigo: 24234| Descri��o: asdasd| Quantidade: 23| Pre�o: 2342.0
