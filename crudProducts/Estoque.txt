@@ -1,0 +1,6 @@
+Produto: teste| Codigo: 18| Descrição: teste| Quantidade: 18| Preço: 2000.0
+Produto: teste| Codigo: 0| Descrição: teste| Quantidade: 0| Preço: 2000.0
+Alimento: comidinha| Codigo: 243242| Descrição: comidas maria| Quantidade: 12| Preço: 2000.0| Data De Validade:2006-04-18
+Alimento: MA| Codigo: 234234| Descrição: RIA| Quantidade: 3| Preço: 4.0| Data De Validade:2006-04-18
+Alimento: joao| Codigo: 3244234| Descrição: amdamsodas| Quantidade: 3| Preço: 5.0| Data De Validade:2006-04-18
+Eletronico: fone de ouvido| Codigo: 34274823| Descrição: bluetotg| Quantidade: 20| Preço: 87.0| Marca: tranya| Modelo: t30
