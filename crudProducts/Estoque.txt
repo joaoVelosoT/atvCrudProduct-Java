@@ -1,0 +1,14 @@
+Produto: asd| Codigo: 234243| Descrição: adas| Quantidade: 34| Preço: 432.0
+Alimento: ASASD| Codigo: 2| Descrição: ASDASD| Quantidade: 3| Preço: 3.0| Data De Validade:2024-04-04
+Alimento: ASD| Codigo: 33| Descrição: ASSDA| Quantidade: 3| Preço: 3.0| Data De Validade:2024-04-04
+Alimento: DSA| Codigo: 342| Descrição: SDA| Quantidade: 43| Preço: 34.0| Data De Validade:2022-02-12
+Alimento: asd| Codigo: 324| Descrição: asd| Quantidade: 23| Preço: 3.0| Data De Validade:2023-04-04
+Alimento: das| Codigo: 1434| Descrição: asd| Quantidade: 3| Preço: 3.0| Data De Validade:2020-02-02
+Alimento: adas| Codigo: 23423| Descrição: asda| Quantidade: 423| Preço: 3.0| Data De Validade:2020-02-02
+Alimento: adas| Codigo: 13| Descrição: sadad| Quantidade: 432| Preço: 323.0| Data De Validade:2024-04-04
+Alimento: assd| Codigo: 12| Descrição: asdad| Quantidade: 23| Preço: 23.0| Data De Validade:2024-04-05
+Alimento: jkoao| Codigo: 3213| Descrição: asdasd| Quantidade: 43| Preço: 43.0| Data De Validade:2024-04-04
+Alimento: asdas| Codigo: 4234| Descrição: 546a| Quantidade: 324| Preço: 234.0| Data De Validade:2024-04-05
+Alimento: asda| Codigo: 3424| Descrição: 42asd| Quantidade: 42| Preço: 243.0| Data De Validade:2020-04-04
+Alimento: adas| Codigo: 234324| Descrição: asdas| Quantidade: 24| Preço: 43.0| Data De Validade:2024-04-05
+Alimento: asdas| Codigo: 34243| Descrição: asdas| Quantidade: 243| Preço: 43.0| Data De Validade:2024-04-05

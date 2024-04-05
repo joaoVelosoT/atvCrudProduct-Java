@@ -11,7 +11,6 @@ public class Sistem {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("cade");
 		do {
 
 			menu();
@@ -49,7 +48,9 @@ public class Sistem {
 					nome = sc.nextLine();
 					if (nome.length() == 0) {
 						System.err.println("Não deixe espaços vazios");
-
+					} else if (nome.length() < 3) {
+						System.err.println("Escreva no minimo 3 letras");
+						// nomeVazio = true;
 					} else {
 						nomeVazio = true;
 					}
@@ -60,6 +61,8 @@ public class Sistem {
 					desc = sc.nextLine();
 					if (desc.length() == 0) {
 						System.err.println("Não deixe espaços vazios");
+					} else if (desc.length() < 3) {
+						System.err.println("Escreva no minimo 3 letras");
 
 					} else {
 						descVazio = true;
@@ -135,6 +138,8 @@ public class Sistem {
 					nome = sc.nextLine();
 					if (nome.length() == 0) {
 						System.err.println("Não deixe espaços vazios");
+					} else if (nome.length() < 3) {
+						System.err.println("Escreva no minimo 3 letras");
 
 					} else {
 						nomeVazio = true;
@@ -146,6 +151,8 @@ public class Sistem {
 					desc = sc.nextLine();
 					if (desc.length() == 0) {
 						System.err.println("Não deixe espaços vazios");
+					} else if (desc.length() < 3) {
+						System.err.println("Escreva no minimo 3 letras");
 
 					} else {
 						descVazio = true;
@@ -190,11 +197,19 @@ public class Sistem {
 				LocalDate newDate = LocalDate.now();
 				while (formatoCorreto == false) {
 					try {
+
 						System.out.println("Digite a data de validade; yyyy-MM-dd");
 						data = sc.nextLine();
+
 						alimento.getDataValidade().parse(data);
 
 						newDate = LocalDate.parse(data);
+
+						if (newDate.compareTo(LocalDate.now()) <= 0) {
+							System.out.println("Digite uma data de validade depois de hoje");
+							continue;
+						}
+
 						alimento.setDataValidade(newDate);
 						if (data.length() < 10) {
 							System.out.println("Digite no formato correto!!!!!!");
@@ -244,6 +259,8 @@ public class Sistem {
 					nome = sc.nextLine();
 					if (nome.length() == 0) {
 						System.err.println("Não deixe espaços vazios");
+					} else if (nome.length() < 3) {
+						System.err.println("Escreva no minimo 3 letras");
 
 					} else {
 						nomeVazio = true;
@@ -255,6 +272,8 @@ public class Sistem {
 					desc = sc.nextLine();
 					if (desc.length() == 0) {
 						System.err.println("Não deixe espaços vazios");
+					} else if (desc.length() < 3) {
+						System.err.println("Escreva no minimo 3 letras");
 
 					} else {
 						descVazio = true;
